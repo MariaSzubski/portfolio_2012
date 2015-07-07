@@ -15,7 +15,7 @@ iframe{
 }
 a{
 	text-decoration: none;
-	color:rgb(11, 158, 94);;
+	color:#F76159;
 }
 
 em{
@@ -144,7 +144,7 @@ h5{
 #header{
 	width:100%;
     height:40px;
-    background-color: #383838;
+    background-color: #282828;
     position:fixed;
     top:0;
     left:0;
@@ -179,7 +179,7 @@ h2{
 	
 div#social{
 	position:absolute;
-	width:168px;
+	width:212px;
 	right: 30px;
 	top:18px;
 	
@@ -221,6 +221,8 @@ div#social{
 	cursor: pointer;
 	position: relative;
 	z-index: 40;
+	overflow: hidden;
+	
 }
 
 .projT img{
@@ -231,6 +233,7 @@ div#social{
 	top:9px;
 	border:1px solid #bbb;
 	z-index:50;
+	overflow: hidden;
 }
 
 
@@ -246,6 +249,7 @@ div#social{
 	padding:16px;
 	opacity: 0;
 	z-index: 51;
+	overflow: hidden;
 }
 
 .Toverlay_wrapper{
@@ -253,6 +257,7 @@ div#social{
 	width:268px;
 	height:123px;
 	vertical-align: middle;
+	overflow: hidden;
 }
 
 .projT:hover img{
@@ -263,6 +268,8 @@ div#social{
 	-ms-filter: blur(10px);
 	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='8');
 	border:1px solid #999;
+	overflow: hidden;
+
 }
 
 .projT:hover .Toverlay{
@@ -271,7 +278,7 @@ div#social{
 	-moz-transition: .25s ease;
 	-o-transition:.25s ease;
 	transition: .25s ease;
-
+	overflow: hidden;
 }
 
 .divider{
@@ -302,7 +309,7 @@ h4{
 
 .about01{
 	width: 288px;
-	height:429px;
+	height:449px;
 	margin-left: 10px;
 	margin-right: 10px;
 	background-color: black;
@@ -320,7 +327,7 @@ h4{
 
 .about02{
 	width:452px;
-	height:429px;
+	height:449px;
 	background-color: #fff;
 	float:left;
 	padding:20px;
@@ -338,7 +345,7 @@ h4{
 
 .about03{
 	width:128px;
-	height:429px;
+	height:449px;
 	background-color: #fff;
 	float:left;
 	padding:20px;
@@ -484,7 +491,7 @@ span.h8{
 h7, .h7{
 	font-family: 'SansitaOne';
 	font-size:18px;
-	color: #dab338;
+	color: rgb(11, 158, 94);
 	margin-left:20px;
 	padding-top: 5px;
 	-webkit-font-smoothing: antialiased;
@@ -493,7 +500,7 @@ h7, .h7{
 .descBox h6{
 	font-family: 'SansitaOne';
 	font-size:17pt;
-	color: #dab338;
+	color: rgb(11, 158, 94);
 	margin-left:20px;
 	padding-top: 5px;
 	-webkit-font-smoothing: antialiased;
@@ -502,7 +509,7 @@ h7, .h7{
 .descBox .h7{
 	font-family: 'SansitaOne';
 	font-size:16px;
-	color: #dab338;
+	color: rgb(11, 158, 94);
 	margin-left:20px;
 	padding-top: 5px;
 	-webkit-font-smoothing: antialiased;
@@ -524,7 +531,7 @@ h7, .h7{
 	background-color: #ccc;
 	width:100%;
 	margin-bottom: 12px;
-	margin-top: 13px;
+	margin-top: 5px;
 	position: relative;
 }
 
