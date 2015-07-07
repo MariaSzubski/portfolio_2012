@@ -1,0 +1,143 @@
+
+.slides_container div {
+	width:710px;
+	height:auto;
+	display:block;
+	
+	
+}
+
+.slides_container{
+	-moz-box-shadow: 0px 0px 10px #aaa;
+	-webkit-box-shadow: 0px 0px 10px #aaa;
+	box-shadow: 0px 0px 10px #aaa;
+	padding-bottom: -5px;
+	margin-bottom: 15px;
+}
+
+
+.pagination {	
+	margin:auto;
+	position: relative;
+	border: 0px;
+	top: 5px;
+}
+
+.n_three .pagination{
+	width:80px;
+}
+
+.n_two .pagination{
+	width: 70px;
+}
+
+.n_eight .pagination{
+	width: 130px;
+}
+
+.n_seven .pagination{
+	width: 120px;
+}
+
+.pagination ul {
+	width:auto;
+	margin:auto;
+}
+
+.pagination li {
+	float:left;
+	margin:0px 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:10px;
+	height:0;
+	padding-top:10px;
+	background-image:url('../img/page.png');
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+	border-radius: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.pagination li a:hover {
+	background-position:0 20px;
+	color:#aaa;
+	
+	
+}
+
+.pagination li.current a {
+	background-position:0 10px;
+	background-color: #e99736;
+	color: #fff;
+	border-radius: 5px;
+}
+
+
+.slides .next:hover, .slides .prev:hover{
+	border:0px;
+}
+
+.arrows{
+	position: absolute;
+	width:700px;
+	height:8px;
+	font-family: 'Trebuchet MS';
+	font-weight: 100;
+	-webkit-font-smoothing: antialiased;
+	font-smooth:always;
+}
+
+
+
+
+.arrow_prev, .arrow_next{
+
+	float: right;
+	position: relative;
+}
+
+.arrow_prev{
+	z-index: 100;
+}
+
+.arrow_next{
+	z-index: 200;
+	margin-left: 10px;
+}
+
+
+
+.slides .prev{
+	float:left;
+	font-size: 11pt;
+}
+
+.slides .prev img{
+	margin-right:0px;
+	float: left;
+	margin-top: 1px;
+}
+
+.slides .next{
+	
+	float:right;
+}
+
+.slides .next img{
+	float: right;
+	margin-left:7px;
+		margin-top: 1px;
+}
+
+
+.n_one .next, .n_one .prev{
+	display:none;
+}
+
+
